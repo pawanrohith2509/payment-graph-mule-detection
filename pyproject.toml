@@ -1,0 +1,27 @@
+[project]
+name = "payment-graph-mule-detection"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "pawanrohith2509", email = "rohith.rohi1@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "lightgbm>=4.7.0",
+    "matplotlib>=3.11.2",
+    "networkx>=3.6.1",
+    "numpy>=2.4.6",
+    "pandas>=3.0.6",
+    "pytest>=9.1.1",
+    "scikit-learn>=1.9.1",
+    "torch>=2.14.1",
+    "torch-geometric>=2.8.0.post1",
+]
+
+[project.scripts]
+payment-graph-mule-detection = "payment_graph_mule_detection:main"
+
+[build-system]
+requires = ["uv_build>=0.12.20,<0.13.0"]
+build-backend = "uv_build"

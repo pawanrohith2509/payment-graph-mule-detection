@@ -1,0 +1,6 @@
+Model,pr_auc,roc_auc,best_f1,best_threshold,recall_at_90_precision,recall_at_80_precision,tp,fp,fn,tn
+Local Tabular Only (LightGBM),0.9979,0.9996,0.991,0.2674,100.0%,100.0%,55,1,0,299
+Topological Graph Features (LightGBM),1.0,1.0,1.0,0.1387,100.0%,100.0%,55,0,0,300
+Graph Convolutional Network (GCN),0.997,1.0,0.973,0.7326,100.0%,100.0%,18,1,0,1138
+GraphSAGE (Inductive),0.997,1.0,0.973,0.6237,100.0%,100.0%,18,1,0,1138
+Graph Attention Network (GAT),0.9943,0.9999,0.9714,0.5742,100.0%,100.0%,17,0,1,1139
